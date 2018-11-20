@@ -1,0 +1,17 @@
+{
+  "name": "petillant-styles",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^1.0.1",
+    "postcss": "^7.0.6",
+    "tachyons": "^4.11.1",
+    "webpack": "^4.26.0"
+  }
+}

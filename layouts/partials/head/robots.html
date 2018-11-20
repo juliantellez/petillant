@@ -1,0 +1,5 @@
+{{ if eq (getenv "HUGO_ENV") "production" | or (eq .Site.Params.env "production")  }}
+  <META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
+{{ else }}
+  <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+{{ end }}
